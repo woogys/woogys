@@ -5,3 +5,5 @@
 
 ***
 ![Woogy's GitHub stats](https://github-readme-stats.vercel.app/api?username=woogys&show_icons=true&theme=radical)
+***
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=woogys&langs_count=10&layout=compact&theme=dark)](https://github.com/woogys/woogys)

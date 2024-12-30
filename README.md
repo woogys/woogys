@@ -9,6 +9,10 @@ LLMOps Managing Model 프론트 개발
 2024.01 -2024.12
 - Vite, Vue3, TypeScript 기반
 - Gitea K8S 설치 후 API를 활용한 서비스 내부 Git repository 화면 구성
+  - Git Repository 페이지 컴포넌트 구성
+  - 구성된 컴포넌트 간 이동을 위한 vue router 적용
+  - 전역에서 필요한 값 활용을 위한 pinia 적용
+  - 모델/데이터셋 viewer 타입 간 동적 메세지 처리를 위한 i18n 적용
 - HuggingFace 모델 Importing 화면 구성
 - FineTuning
   - Foundation Model에 대한 파인 튜닝/실험 CRUD API 개발

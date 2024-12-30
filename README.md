@@ -9,10 +9,10 @@ LLMOps Managing Model 프론트 개발
 2024.01 -2024.12
 - Vite, Vue3, TypeScript 기반
 - Gitea K8S 설치 후 API를 활용한 서비스 내부 Git repository 화면 구성
- - Git Repository 페이지 컴포넌트 구성
- - Vue Router를 통한 SPA 라우팅 구현
- - Pinia를 활용한 상태 관리
- - i18n을 이용한 다국어 지원
+  - Git Repository 페이지 컴포넌트 구성
+  - Vue Router를 통한 SPA 라우팅 구현
+  - Pinia를 활용한 상태 관리
+  - i18n을 이용한 다국어 지원
 - HuggingFace 모델 Importing 화면 구성
 - FineTuning
   - Foundation Model에 대한 파인 튜닝/실험 CRUD API 개발
@@ -23,11 +23,11 @@ MLOps 백엔드 개발
 - Spring Boot, MySQL, K8S 활용
 - 자사 MLOps 플랫폼 `치타` 유지 보수 및 신규 기능 개발
 - PromQL을 활용한 대시보드 노드 상태, GPU, CPU 자원 사용율 조회 API 구현
-  - d3.js를 활용한 hexagonal chart 구현
+   - d3.js를 활용한 hexagonal chart 구현
 - 플랫폼 내 코드 공유를 위한 '코드 조각' API 개발
-  - ElasticSearch Index query를 활용한 Search API 개발
-  - 코드 조각 CRUD 개발
-  - 언어 타입 (Ruby, Java, Python, Go, NodeJS)별 코드 viewer 프론트 개발
+   - ElasticSearch Index query를 활용한 Search API 개발
+   - 코드 조각 CRUD 개발
+   - 언어 타입 (Ruby, Java, Python, Go, NodeJS)별 코드 viewer 프론트 개발
 - Vite, Vue3, TypeScript, ArgoFlow 기반 ML Workflow 프론트엔드 유지보수
 
 ***

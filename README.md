@@ -9,10 +9,10 @@ LLMOps Managing Model 프론트 개발
 2024.01 -2024.12
 - Vite, Vue3, TypeScript 기반
 - Gitea K8S 설치 후 API를 활용한 서비스 내부 Git repository 화면 구성
-  - Git Repository 페이지 컴포넌트 구성
-  - 구성된 컴포넌트 간 이동을 위한 vue router 적용
-  - API 조회 데이터 전역 활용을 위한 pinia 적용
-  - 모델/데이터셋 viewer 타입 간 동적 메세지 처리를 위한 i18n 적용
+ - Git Repository 페이지 컴포넌트 구성
+ - Vue Router를 통한 SPA 라우팅 구현
+ - Pinia를 활용한 상태 관리
+ - i18n을 이용한 다국어 지원
 - HuggingFace 모델 Importing 화면 구성
 - FineTuning
   - Foundation Model에 대한 파인 튜닝/실험 CRUD API 개발
@@ -22,12 +22,13 @@ MLOps 백엔드 개발
 2022.04-2024.06
 - Spring Boot, MySQL, K8S 활용
 - 자사 MLOps 플랫폼 `치타` 유지 보수 및 신규 기능 개발
-  - PromQL을 활용한 대시보드 노드 상태, GPU, CPU 자원 사용율 조회 API 및 d3를 활용한 hexagonal chart 개발
-  - 플랫폼 내 코드 공유를 위한 '코드 조각' API 개발
-    - ElasticSearch Index query를 활용한 Search API 개발
-    - 코드 조각 CRUD 개발
-    - 언어 타입 (Ruby, Java, Python, Go, NodeJS)별 코드 viewer 프론트 개발
-  - Vite, Vue3, TypeScript, ArgoFlow 기반 ML Workflow 프론트엔드 유지보수
+- PromQL을 활용한 대시보드 노드 상태, GPU, CPU 자원 사용율 조회 API 구현
+  - d3.js를 활용한 hexagonal chart 구현
+- 플랫폼 내 코드 공유를 위한 '코드 조각' API 개발
+  - ElasticSearch Index query를 활용한 Search API 개발
+  - 코드 조각 CRUD 개발
+  - 언어 타입 (Ruby, Java, Python, Go, NodeJS)별 코드 viewer 프론트 개발
+- Vite, Vue3, TypeScript, ArgoFlow 기반 ML Workflow 프론트엔드 유지보수
 
 ***
 ![Woogy's GitHub stats](https://github-readme-stats.vercel.app/api?username=woogys&show_icons=true&theme=radical)

@@ -6,6 +6,20 @@
 
 ***
 LLMOps Managing Model 프론트 개발
+2025.01 – 2025.12
+- Apache Airflow 3.x 기반 Data Pipeline 모듈 구축
+  - KubernetesExecutor 기반 Task 환경 구성 및 Helm Chart 커스터마이징
+  - Webserver/API Server Reverse Proxy·JWT 인증 구조 개발
+  - 사용자별 Context Variable 자동 관리 기능 백엔드 개발
+- Ceph ObjectStorage 기반 LLMOps 데이터/모델 안정성 구조 설계
+  - Ceph RGW 기반 Git LFS 연동, Airflow S3TaskHandler 커스터마이징
+- 자사 플랫폼 '치타' 및 사용자 커스텀 작업 환경 지원 기능 개발
+  - InitContainer 기반 런타임 pip install 기능 설계
+  - Airflow Task용 커스텀 Decorator 지원 구조 확립
+  - 치타 내부 리소스 카탈로그 기반 GPU/CPU 리소스 자동 할당
+- Vue3 + TS 기반 Airflow UI·Monitoring·Git 관리 UI 개선
+  - Airflow UI 내부 서비스로 자연스럽게 통합(IFrame + Proxy 설계)
+
 2024.01 -2024.12
 - Vite, Vue3, TypeScript 기반
 - Gitea K8S 설치 후 API를 활용한 서비스 내부 Git repository 화면 구성
